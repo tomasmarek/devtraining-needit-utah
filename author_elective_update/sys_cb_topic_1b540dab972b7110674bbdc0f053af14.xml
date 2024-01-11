@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description>Request a new computer as replacement of your old one</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{"graph_api_version":"1.0.51","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"dd20785f97b349e1b027b480c8d6890d":{"id":"dd20785f97b349e1b027b480c8d6890d","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"66f0fb77b65e4fee86fb3aba3d989005":{"id":"66f0fb77b65e4fee86fb3aba3d989005","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"8fe7c8151d1f410b814d855224f91f69","edgeType":"Edge","source":"dd20785f97b349e1b027b480c8d6890d","target":"66f0fb77b65e4fee86fb3aba3d989005","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Computer renewal,replacement,replace computer</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Computer renewal</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles>public</roles>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 09:53:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1b540dab972b7110674bbdc0f053af14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Computer renewal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_1b540dab972b7110674bbdc0f053af14</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 09:53:43</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>89cec0584f0bde04e17199701310c7e7</instance_id>
+        <instance_name>dev21953</instance_name>
+        <name>sys_cb_topic_1b540dab972b7110674bbdc0f053af14</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>query</applicability_mode><autopilot_topic>false</autopilot_topic><category/><channels/><connect_queue/><description>Request a new computer as replacement of your old one</description><dialog_acts_enabled>false</dialog_acts_enabled><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><foundational>false</foundational><graph>{"graph_api_version":"1.0.51","variables":{},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"dd20785f97b349e1b027b480c8d6890d":{"id":"dd20785f97b349e1b027b480c8d6890d","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"66f0fb77b65e4fee86fb3aba3d989005":{"id":"66f0fb77b65e4fee86fb3aba3d989005","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"8fe7c8151d1f410b814d855224f91f69","edgeType":"Edge","source":"dd20785f97b349e1b027b480c8d6890d","target":"66f0fb77b65e4fee86fb3aba3d989005","sourcePort":"","targetPort":""}]}}}</graph><key_phrases>Computer renewal,replacement,replace computer</key_phrases><library>false</library><live_agent>false</live_agent><model_type>nlu_keyword</model_type><modify_confirmation_enabled>false</modify_confirmation_enabled><name>Computer renewal</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles>public</roles><root_topic_id/><secure_custom_input_control>false</secure_custom_input_control><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-11 09:53:43</sys_created_on><sys_domain>global</sys_domain><sys_id>1b540dab972b7110674bbdc0f053af14</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Computer renewal</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_cb_topic_1b540dab972b7110674bbdc0f053af14</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-11 09:53:43</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>STANDARD</type></sys_cb_topic></record_update>]]></payload>
+        <payload_hash>-697188243</payload_hash>
+        <record_name>Computer renewal</record_name>
+        <reverted_from/>
+        <source>1b5c386397677110674bbdc0f053af9e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 09:53:43</sys_created_on>
+        <sys_id>db540dab972b7110674bbdc0f053af16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18cf7f11cab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 09:53:43</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>13540daba32b7110f25563f83809ea16</update_guid>
+        <update_guid_history>13540daba32b7110f25563f83809ea16:-697188243</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-11 12:59:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>4da2007ab7704baeb501b93a9ebd33a4</sys_id>
+        <sys_metadata>1b540dab972b7110674bbdc0f053af14</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Computer renewal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_1b540dab972b7110674bbdc0f053af14</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_1b540dab972b7110674bbdc0f053af14">db540dab972b7110674bbdc0f053af16</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-11 12:59:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
